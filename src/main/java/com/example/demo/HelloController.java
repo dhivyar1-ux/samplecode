@@ -8,6 +8,6 @@ public class HelloController {
 		
 		@GetMapping("/hello")
 		public String greet() {
-			return "Hello Jenkins World";
+			return "Hello Jenkins and docker World";
 		}
 }
