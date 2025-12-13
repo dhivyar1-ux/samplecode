@@ -14,13 +14,6 @@ spec:
     spec:
       containers:
         - name: springboot-container
-          image: dhivyadura/demosql:latest
+          image: dhivyadura/samplehello:latest
           ports:
             - containerPort: 8080
-          env:
-            - name: SPRING_DATASOURCE_URL
-              value: jdbc:mysql://mysql-service:3306/studentdbjpa
-            - name: SPRING_DATASOURCE_USERNAME
-              value: root
-            - name: SPRING_DATASOURCE_PASSWORD
-              value: welcome@123
